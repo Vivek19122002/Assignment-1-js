@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Assignment 1 | COMP1073 Client-Side JavaScript</title>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+<header>
+<h1> See 'N Say Story Maker</h1>
+</header>
+	<!-- Add the <img> tag to display an image --><br>
+	<img src="game.png" alt="Description of the image"><br>
+	<!-- Add the buttons to the screen -->
+	<button onclick="generatePhrase(0)"> 1</button>
+	<button onclick="generatePhrase(1)"> 2</button>
+	<button onclick="generatePhrase(2)"> 3</button>
+	<button onclick="generatePhrase(3)"> 4</button>
+	<button onclick="generatePhrase(4)"> 5</button><br><br>
+	<div class="button-container">
+	<button id="speakButton">Speak</button>
+	<button id="generateButton">Generate Random Story</button>
+	<button id="resetButton">Reset</button>
+	</div>
+	<!-- Add these elements where you want to display the generated text -->
+	<p id="phraseDisplay"></p>
+	<p id="storyDisplay"></p>
+	<script src="js/app.js"></script>
+</body>
+</html>
